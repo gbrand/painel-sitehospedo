@@ -9,12 +9,8 @@ module.exports = function(grunt) {
                     paths: ["dev/assets/css"]
                 },
                 files: {
-                    "dev/assets/css/resets.css": "dev/assets/less/resets.less",
-                    "dev/assets/css/helper.css": "dev/assets/less/helper.less",
-                    "dev/assets/css/menu.css": "dev/assets/less/menu.less",
-                    "dev/assets/css/conteudo.css": "dev/assets/less/conteudo.less",
-                    "dev/assets/css/rodape.css": "dev/assets/less/rodape.less",
-                    "dev/assets/css/media.css": "dev/assets/less/media.less"
+                    "dev/assets/css/main.css": "dev/assets/less/main.less", 
+                    "dev/assets/css/resets.css": "dev/assets/less/resets.less"
                 }
             }
         }, // Less
@@ -41,14 +37,14 @@ module.exports = function(grunt) {
                 separator: ''
             },
             dist: {
-                src: ['dev/assets/css/resets.css', 'dev/assets/css/helper.css', 'dev/assets/css/menu.css', 'dev/assets/css/conteudo.css', 'dev/assets/css/rodape.css','dev/assets/css/media.css'],
+                src: ['dev/assets/css/main.css'],
                 dest: 'dev/assets/css/main.css'
             }
         }, // Concat
         watch: {
             scripts: {
-                files: ['dev/assets/js/main.js', 'dev/assets/less/resets.less', 'dev/assets/less/helper.less', 'dev/assets/less/menu.less', 'dev/assets/less/conteudo.less', 'dev/assets/less/rodape.less', 'dev/assets/less/lib/mixins.less', 'dev/assets/less/media.less'],
-                tasks: ['less', 'concat', 'cssmin', 'uglify'],
+                files: ['dev/assets/js/main.js', 'dev/assets/less/lib/mixins.less', 'dev/assets/less/main.less', 'dev/assets/less/resets.less'],
+                tasks: ['less', 'cssmin', 'uglify'],
                 options: {
                     spawn: false
                 }
@@ -57,18 +53,18 @@ module.exports = function(grunt) {
         'ftp-deploy': {
             build: {
                 auth: {
-                    host: 'ftp.regenciadho.com.br',
+                    host: 'ftp.gbrand.com.br',
                     port: 21,
-                    authKey: 'regencia'
+                    authKey: 'lab'
                 },
                 src: 'dev/',
-                dest: 'www/'
+                dest: 'www/lab/painel-sitehospedo'
             }
         }, //Dploy
         compress: {
             main: {
                 options: {
-                    archive: "download/sites-landing.zip"
+                    archive: "download/painel-sitehospedo.zip"
                 },
                 files: [{
                     expand: true,

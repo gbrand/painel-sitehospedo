@@ -1,0 +1,33 @@
+@import '../../../node_modules/bootstrap/less/bootstrap.less';
+@import "lib/mixins.less";
+@import "resets.less";
+
+#demo{
+	.text-center();
+    .cores{
+        .make-row();
+    }
+
+    .bg-vermelho, .bg-roxo, .bg-amarelo{
+    	.make-md-column(4);
+		padding: 30px;
+    }
+
+    .bg-vermelho{
+    	h3{
+    		color: lighten(@vermelho, 20%);
+    	}
+    }
+
+    .bg-roxo{
+    	h3{
+    		color: lighten(@roxo, 20%);
+    	}
+    }
+
+    .bg-amarelo{
+    	h3{
+    		color: lighten(@amarelo, 20%);
+    	}
+    }
+}
