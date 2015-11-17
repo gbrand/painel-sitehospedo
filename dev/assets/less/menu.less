@@ -1,0 +1,93 @@
+@import "lib/mixins.less";
+#menu {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    background-color: rgba(247, 247, 247, 0.7);
+    .border-radius();
+    padding: 10px 0px;
+    border: 0;
+    margin-bottom: 0;
+    .add-transition();
+    .logo-scroll {
+        margin: 0 auto;
+        max-width: 130px;
+        display: none;
+        .add-transition();
+    }
+    &.resize {
+        .logo-scroll {
+            display: block;
+        }
+        background-color: rgba(247, 247, 247, 0.95);
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 0;
+        li {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 10px;
+            a {
+                color: #551412;
+                .ft-padrao(@weight: 400);
+                &:hover,
+                &:focus,
+                &:active {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+// Menu mobile
+#menu-mobile {
+    border-top: 1px rgba(255, 255, 255, 0.33) solid;
+    display: none;
+    ul {
+        padding: 0;
+        float: inherit !important;
+        margin-left: -30px;
+        margin: 30px 0 30px 0 !important;
+        list-style: none;
+        li {
+            display: list-item !important;
+            text-align: center !important;
+            a {
+                color: rgba(52, 24, 25, 0.5) !important;
+                font-size: 1.2em;
+                font-weight: 300;
+                .add-transition();
+                border-bottom: 1px transparent solid;
+                &:hover {
+                    text-decoration: none;
+                    border-bottom: 1px rgba(255, 255, 255, 0.33) solid;
+                }
+            }
+        }
+    }
+}
+
+// Markers
+#Empresa {
+    margin-top: -210px;
+}
+
+#Produtos {
+    margin-top: -30px;
+}
+
+#Produtos {
+    margin-top: -30px;
+}
+
+#Galeria {
+    margin-top: -20px;
+}
+
+.marker {
+    position: absolute;
+}

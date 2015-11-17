@@ -1,0 +1,10 @@
+@font-face {
+      font-family: 'gbrand-digital';
+      src: url('./font/gbrand-digital.eot?23117305');
+      src: url('./font/gbrand-digital.eot?23117305#iefix') format('embedded-opentype'),
+           url('./font/gbrand-digital.woff?23117305') format('woff'),
+           url('./font/gbrand-digital.ttf?23117305') format('truetype'),
+           url('./font/gbrand-digital.svg?23117305#gbrand-digital') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }

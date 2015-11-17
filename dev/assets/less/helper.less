@@ -1,0 +1,54 @@
+@import "lib/mixins.less";
+.chamada {
+    padding: 80px 0;
+    background-color: #666;
+}
+
+.parallax {
+    background-attachment: fixed !important;
+}
+
+.titulo {
+    margin-top: 10px;
+    padding: 30px 0;
+    background-color: #BE6851;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+/*Botões*/
+
+.btn-branco {
+    .make-btn();
+    .add-transition();
+    &:hover,
+    &:focus,
+    &:active {
+        color: #CE7E26;
+    }
+}
+
+.btn-mobile {
+    background: transparent;
+    border: 1px solid rgba(52, 24, 25, 0.30);
+    color: #341819;
+    .add-transition();
+    display: none;
+}
+
+.icone-cinza {
+    filter: grayscale(70%);
+    -webkit-filter: grayscale(70%);
+    -o-filter: grayscale(70%);
+    -moz-filter: grayscale(70%);
+    transition: all .8s ease-out;
+}
+
+.icone-normal {
+    filter: grayscale(1%);
+    -webkit-filter: grayscale(1%);
+    -o-filter: grayscale(1%);
+    -moz-filter: grayscale(1%);
+}

@@ -1,0 +1,44 @@
+#rodape {
+  background: #ffffff url(../../img/fundos/fundo-logo-rodape.png) center no-repeat;
+  text-align: center;
+  color: #230100;
+  padding: 100px 0;
+}
+#rodape h1 {
+  font-weight: 700;
+  color: #230100;
+}
+#rodape .ft-dtq {
+  font-weight: 300;
+  font-size: 26px;
+}
+#rodape .numero {
+  font-size: 26px;
+  font-weight: 400;
+}
+#rodape .numero span {
+  font-weight: 300;
+  font-size: 18px;
+}
+#rodape p {
+  font-size: 18px;
+}
+#rodape .row {
+  margin-top: 30px;
+}
+#rodape .row p {
+  text-align: left;
+}
+#rodape .row .form-control {
+  border-radius: 0px;
+  border: 1px solid #783C22;
+}
+#rodape .row .btn-enviar {
+  background-color: #783c22;
+  color: #ffffff;
+  border-radius: 0;
+}
+#agencia {
+  margin: 0 auto;
+  max-width: 80px;
+}

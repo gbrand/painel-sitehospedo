@@ -1,0 +1,93 @@
+#menu {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  background-color: rgba(247, 247, 247, 0.7);
+  border-radius: 0px;
+  padding: 10px 0px;
+  border: 0;
+  margin-bottom: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#menu .logo-scroll {
+  margin: 0 auto;
+  max-width: 130px;
+  display: none;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#menu.resize {
+  background-color: rgba(247, 247, 247, 0.95);
+}
+#menu.resize .logo-scroll {
+  display: block;
+}
+#menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+#menu ul li {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px;
+}
+#menu ul li a {
+  color: #551412;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+#menu ul li a:hover,
+#menu ul li a:focus,
+#menu ul li a:active {
+  text-decoration: none;
+}
+#menu-mobile {
+  border-top: 1px rgba(255, 255, 255, 0.33) solid;
+  display: none;
+}
+#menu-mobile ul {
+  padding: 0;
+  float: inherit !important;
+  margin-left: -30px;
+  margin: 30px 0 30px 0 !important;
+  list-style: none;
+}
+#menu-mobile ul li {
+  display: list-item !important;
+  text-align: center !important;
+}
+#menu-mobile ul li a {
+  color: rgba(52, 24, 25, 0.5) !important;
+  font-size: 1.2em;
+  font-weight: 300;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  border-bottom: 1px transparent solid;
+}
+#menu-mobile ul li a:hover {
+  text-decoration: none;
+  border-bottom: 1px rgba(255, 255, 255, 0.33) solid;
+}
+#Empresa {
+  margin-top: -210px;
+}
+#Produtos {
+  margin-top: -30px;
+}
+#Produtos {
+  margin-top: -30px;
+}
+#Galeria {
+  margin-top: -20px;
+}
+.marker {
+  position: absolute;
+}

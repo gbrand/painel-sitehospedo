@@ -1,0 +1,25 @@
+
+
+.ft-padrao(@size: 15px, @weight: 300,@color:#000){
+	font-family: 'Nunito', sans-serif; // Fonte padrão vai aqui
+	font-size: @size;
+	font-weight: @weight;
+	color:@color;
+}
+
+
+.add-transition(@tempo: 0.5s){
+	-webkit-transition: all @tempo ease-out;
+	-o-transition: all @tempo ease-out;
+	transition: all @tempo ease-out;
+}
+
+.border-radius(@radius:0px){
+	border-radius: @radius;
+}
+
+.make-btn(@bg-color:#fff, @ft-color:#551515, @radius:0){
+	background-color: @bg-color;
+	color: @ft-color;
+	border-radius: @radius;
+}

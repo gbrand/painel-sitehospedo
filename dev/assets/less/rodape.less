@@ -1,0 +1,48 @@
+@import "lib/mixins.less";
+#rodape {
+    background: #fff url(../../img/fundos/fundo-logo-rodape.png) center no-repeat;
+    text-align: center;
+    color: #230100;
+    padding: 100px 0;
+    h1 {
+        font-weight: 700;
+        color: #230100;
+    }
+    .ft-dtq {
+        font-weight: 300;
+        font-size: 26px;
+    }
+    .numero {
+        font-size: 26px;
+        font-weight: 400;
+        span {
+            font-weight: 300;
+            font-size: 18px;
+        }
+    }
+    p {
+        font-size: 18px;
+    }
+
+    .row{
+        margin-top: 30px;
+
+        p{
+            text-align: left;
+        }
+
+        .form-control{
+            border-radius: 0px;
+            border: 1px solid #783C22;
+        }
+
+        .btn-enviar{
+            .make-btn(#783C22, #fff, @radius:0);
+        }
+    }
+}
+
+#agencia{
+    margin: 0 auto;
+    max-width: 80px
+}

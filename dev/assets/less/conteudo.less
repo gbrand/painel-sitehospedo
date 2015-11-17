@@ -1,0 +1,314 @@
+@import "lib/mixins.less";
+@import "helper.less";
+#logo {
+    background: #380E0F url(../../img/fundos/fundo-logo-topo.png) right no-repeat;
+    padding: 100px 0 80px 0;
+    img {
+        margin: 0 auto;
+    }
+}
+
+// Chamada
+#chamada-topo {
+    background: url(../../img/fundos/filete-fundo-chamada-1.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 330px;
+    margin-top: -70px;
+    .parallax {
+        background: url(../../img/fundos/parallax-chamada-1.png) no-repeat;
+        background-size: cover;
+        padding: 70px 0;
+        top: 50px;
+        position: relative;
+        color: #fff;
+        h1 {
+            font-weight: 300;
+            text-align: center;
+            .ft-i {
+                font-style: italic;
+                font-weight: 400;
+            }
+            .ft-dtq {
+                .ft-padrao(50px, 700, #F7951E);
+                font-style: italic;
+            }
+            .alinha {
+                margin-left: 270px;
+            }
+        }
+    }
+}
+
+// Empresa
+#empresa {
+    margin-top: 30px;
+    .bg-img {
+        background: url(../../img/fundos/fundo-empresa.png) no-repeat;
+        background-size: cover;
+        background-position-x: -25px;
+        h1 {
+            color: #fff;
+            text-align: right;
+            margin-right: 80px;
+            padding: 55px 0;
+            font-weight: 700;
+        }
+    }
+    h1 {
+        .ft-padrao(@size: 35px, @weight: 300, @color: #763D20);
+    }
+}
+
+// Valores
+#what {
+    background-color: #1A2F4E;
+    padding: 30px 0;
+    color: #fff;
+    margin-top: 30px;
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            display: inline-block;
+            margin-right: 10px;
+            img {
+                .icone-normal;
+                &:hover {
+                    .icone-cinza;
+                }
+            }
+            &.ativa {
+                img {
+                    .icone-normal;
+                }
+            }
+        }
+    }
+    p {
+        text-align: justify;
+        padding: 10px 20px 10px 0;
+    }
+}
+
+// Serviços
+#servicos {
+    .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    // Resets
+    h2 {
+        color: #D58524;
+        padding: 40px 0;
+        text-align: center;
+    }
+    .servico {
+        color: #fff;
+        h2 {
+            text-align: left;
+            padding: 5px 0;
+            color: #fff;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .btn-servicos {
+            cursor: pointer;
+            h3 {
+                span {
+                    .ft-padrao(15px, 300, #000);
+                }
+            }
+        }
+        .icone {
+            text-align: right;
+            font-size: 6.5em;
+            position: relative;
+            top: 20px;
+            right: 115px;
+        }
+        .btn-servicos {
+            background-color: #FBF9E4;
+            padding: 15px;
+            .add-transition();
+            h3 {
+                margin: 0;
+            }
+            &:hover {
+                background-color: darken(#FBF9E4, 15%)
+            }
+        }
+        .itens {
+            background-color: #FBF9E4;
+            padding: 20px;
+            margin-top: 10px;
+            display: none;
+            p {
+                font-weight: 300;
+                color: #561415;
+                &:before {
+                    position: absolute;
+                    left: -3px;
+                }
+            }
+        }
+    }
+    // Servico 1
+    .servico-1 {
+        @serv1-color: #9F3F48;
+        background: @serv1-color url(../../img/fundos/servicos-gestao-contratos.png) no-repeat;
+        background-size: cover;
+        .btn-servicos {
+            h3 {
+                color: @serv1-color;
+            }
+        }
+        .itens {
+            p {
+                &:before {
+                    content: "\f016";
+                    font-family: FontAwesome;
+                    color: @serv1-color;
+                }
+            }
+        }
+    }
+    // Servico 2
+    .servico-2 {
+        @serv2-color: #771C1B;
+        background: @serv2-color url(../../img/fundos/servicos-plano-carreira.png) no-repeat;
+        background-size: cover;
+        .btn-servicos {
+            h3 {
+                color: @serv2-color;
+            }
+        }
+        .itens {
+            p {
+                &:before {
+                    content: "\f073";
+                    font-family: FontAwesome;
+                    color: @serv2-color;
+                }
+            }
+        }
+    }
+    // Servico 3
+    .servico-3 {
+        @serv3-color: #814B31;
+        background: @serv3-color url(../../img/fundos/servicos-remuneracao.png) no-repeat;
+        background-size: cover;
+        .btn-servicos {
+            h3 {
+                color: @serv3-color;
+            }
+        }
+        .itens {
+            p {
+                &:before {
+                    content: "\f067";
+                    font-family: FontAwesome;
+                    color: @serv3-color;
+                }
+            }
+        }
+    }
+    // Servico 4
+    .servico-4 {
+        @serv4-color: #142542;
+        background: @serv4-color url(../../img/fundos/servicos-comunicacao.png) no-repeat;
+        background-size: cover;
+        .btn-servicos {
+            h3 {
+                color: @serv4-color;
+            }
+        }
+        .itens {
+            p {
+                &:before {
+                    content: "\f0a1";
+                    font-family: FontAwesome;
+                    color: @serv4-color;
+                }
+            }
+        }
+    }
+    // Servico 5
+    .servico-5 {
+        @serv5-color: #AE4F4D;
+        background: @serv5-color url(../../img/fundos/servicos-relacoes-trabalhistas.png) no-repeat;
+        background-size: cover;
+        .btn-servicos {
+            h3 {
+                color: @serv5-color;
+            }
+        }
+        .itens {
+            p {
+                &:before {
+                    content: "\f022";
+                    font-family: FontAwesome;
+                    color: @serv5-color;
+                }
+            }
+        }
+    }
+    // Servico 6
+    .servico-6 {
+        @serv6-color: #783C22;
+        background: @serv6-color url(../../img/fundos/servicos-seguranca.png) no-repeat;
+        background-size: cover;
+        .btn-servicos {
+            h3 {
+                color: @serv6-color;
+            }
+        }
+        .itens {
+            p {
+                &:before {
+                    content: "\f132";
+                    font-family: FontAwesome;
+                    color: @serv6-color;
+                }
+            }
+        }
+    }
+}
+
+// Blog
+#blog {
+    background: url(../../img/fundos/filete-fundo-chamada-1.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 355px;
+    margin-top: 50px;
+    .parallax {
+        background: url(../../img/fundos/parallax-blog.png) no-repeat;
+        background-size: cover;
+        padding: 70px 0;
+        top: 49px;
+        position: relative;
+        color: #fff;
+        text-align: center;
+        h1 {
+            color: #CE7E26;
+            text-transform: uppercase;
+        }
+    }
+}
+
+// Markers
+#Home {
+    position: relative;
+    top: 0;
+}
+
+#Sobre {
+    position: relative;
+    top: -70px;
+}

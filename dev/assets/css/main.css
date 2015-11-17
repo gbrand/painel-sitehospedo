@@ -1,0 +1,549 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:300,400,700);
+@font-face {
+  font-family: 'gbrand-digital';
+  src: url('font/gbrand-digital.eot?23117305');
+  src: url('font/gbrand-digital.eot?23117305#iefix') format('embedded-opentype'), url('font/gbrand-digital.woff?23117305') format('woff'), url('font/gbrand-digital.ttf?23117305') format('truetype'), url('font/gbrand-digital.svg?23117305#gbrand-digital') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000000;
+  background-color: #fff;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+.chamada {
+  padding: 80px 0;
+  background-color: #666;
+}
+.parallax {
+  background-attachment: fixed !important;
+}
+.titulo {
+  margin-top: 10px;
+  padding: 30px 0;
+  background-color: #BE6851;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*Botões*/
+.btn-branco {
+  background-color: #ffffff;
+  color: #551515;
+  border-radius: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active {
+  color: #CE7E26;
+}
+.btn-mobile {
+  background: transparent;
+  border: 1px solid rgba(52, 24, 25, 0.3);
+  color: #341819;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  display: none;
+}
+.icone-cinza {
+  filter: grayscale(70%);
+  -webkit-filter: grayscale(70%);
+  -o-filter: grayscale(70%);
+  -moz-filter: grayscale(70%);
+  transition: all 0.8s ease-out;
+}
+.icone-normal {
+  filter: grayscale(1%);
+  -webkit-filter: grayscale(1%);
+  -o-filter: grayscale(1%);
+  -moz-filter: grayscale(1%);
+}
+#menu {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  background-color: rgba(247, 247, 247, 0.7);
+  border-radius: 0px;
+  padding: 10px 0px;
+  border: 0;
+  margin-bottom: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#menu .logo-scroll {
+  margin: 0 auto;
+  max-width: 130px;
+  display: none;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#menu.resize {
+  background-color: rgba(247, 247, 247, 0.95);
+}
+#menu.resize .logo-scroll {
+  display: block;
+}
+#menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+#menu ul li {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 10px;
+}
+#menu ul li a {
+  color: #551412;
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+}
+#menu ul li a:hover,
+#menu ul li a:focus,
+#menu ul li a:active {
+  text-decoration: none;
+}
+#menu-mobile {
+  border-top: 1px rgba(255, 255, 255, 0.33) solid;
+  display: none;
+}
+#menu-mobile ul {
+  padding: 0;
+  float: inherit !important;
+  margin-left: -30px;
+  margin: 30px 0 30px 0 !important;
+  list-style: none;
+}
+#menu-mobile ul li {
+  display: list-item !important;
+  text-align: center !important;
+}
+#menu-mobile ul li a {
+  color: rgba(52, 24, 25, 0.5) !important;
+  font-size: 1.2em;
+  font-weight: 300;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  border-bottom: 1px transparent solid;
+}
+#menu-mobile ul li a:hover {
+  text-decoration: none;
+  border-bottom: 1px rgba(255, 255, 255, 0.33) solid;
+}
+#Empresa {
+  margin-top: -210px;
+}
+#Produtos {
+  margin-top: -30px;
+}
+#Produtos {
+  margin-top: -30px;
+}
+#Galeria {
+  margin-top: -20px;
+}
+.marker {
+  position: absolute;
+}
+.chamada {
+  padding: 80px 0;
+  background-color: #666;
+}
+.parallax {
+  background-attachment: fixed !important;
+}
+.titulo {
+  margin-top: 10px;
+  padding: 30px 0;
+  background-color: #BE6851;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/*Botões*/
+.btn-branco {
+  background-color: #ffffff;
+  color: #551515;
+  border-radius: 0;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.btn-branco:hover,
+.btn-branco:focus,
+.btn-branco:active {
+  color: #CE7E26;
+}
+.btn-mobile {
+  background: transparent;
+  border: 1px solid rgba(52, 24, 25, 0.3);
+  color: #341819;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  display: none;
+}
+.icone-cinza {
+  filter: grayscale(70%);
+  -webkit-filter: grayscale(70%);
+  -o-filter: grayscale(70%);
+  -moz-filter: grayscale(70%);
+  transition: all 0.8s ease-out;
+}
+.icone-normal {
+  filter: grayscale(1%);
+  -webkit-filter: grayscale(1%);
+  -o-filter: grayscale(1%);
+  -moz-filter: grayscale(1%);
+}
+#logo {
+  background: #380e0f url(../../img/fundos/fundo-logo-topo.png) right no-repeat;
+  padding: 100px 0 80px 0;
+}
+#logo img {
+  margin: 0 auto;
+}
+#chamada-topo {
+  background: url(../../img/fundos/filete-fundo-chamada-1.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 330px;
+  margin-top: -70px;
+}
+#chamada-topo .parallax {
+  background: url(../../img/fundos/parallax-chamada-1.png) no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  top: 50px;
+  position: relative;
+  color: #fff;
+}
+#chamada-topo .parallax h1 {
+  font-weight: 300;
+  text-align: center;
+}
+#chamada-topo .parallax h1 .ft-i {
+  font-style: italic;
+  font-weight: 400;
+}
+#chamada-topo .parallax h1 .ft-dtq {
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #f7951e;
+  font-style: italic;
+}
+#chamada-topo .parallax h1 .alinha {
+  margin-left: 270px;
+}
+#empresa {
+  margin-top: 30px;
+}
+#empresa .bg-img {
+  background: url(../../img/fundos/fundo-empresa.png) no-repeat;
+  background-size: cover;
+  background-position-x: -25px;
+}
+#empresa .bg-img h1 {
+  color: #fff;
+  text-align: right;
+  margin-right: 80px;
+  padding: 55px 0;
+  font-weight: 700;
+}
+#empresa h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color: #763d20;
+}
+#what {
+  background-color: #1A2F4E;
+  padding: 30px 0;
+  color: #fff;
+  margin-top: 30px;
+}
+#what h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+#what ul {
+  list-style: none;
+  padding: 0;
+}
+#what ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+#what ul li img {
+  filter: grayscale(1%);
+  -webkit-filter: grayscale(1%);
+  -o-filter: grayscale(1%);
+  -moz-filter: grayscale(1%);
+}
+#what ul li img:hover {
+  filter: grayscale(70%);
+  -webkit-filter: grayscale(70%);
+  -o-filter: grayscale(70%);
+  -moz-filter: grayscale(70%);
+  transition: all 0.8s ease-out;
+}
+#what ul li.ativa img {
+  filter: grayscale(1%);
+  -webkit-filter: grayscale(1%);
+  -o-filter: grayscale(1%);
+  -moz-filter: grayscale(1%);
+}
+#what p {
+  text-align: justify;
+  padding: 10px 20px 10px 0;
+}
+#servicos .container-fluid {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#servicos h2 {
+  color: #D58524;
+  padding: 40px 0;
+  text-align: center;
+}
+#servicos .servico {
+  color: #fff;
+}
+#servicos .servico h2 {
+  text-align: left;
+  padding: 5px 0;
+  color: #fff;
+}
+#servicos .servico p {
+  margin-bottom: 20px;
+}
+#servicos .servico .btn-servicos {
+  cursor: pointer;
+}
+#servicos .servico .btn-servicos h3 span {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #000000;
+}
+#servicos .servico .icone {
+  text-align: right;
+  font-size: 6.5em;
+  position: relative;
+  top: 20px;
+  right: 115px;
+}
+#servicos .servico .btn-servicos {
+  background-color: #FBF9E4;
+  padding: 15px;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+#servicos .servico .btn-servicos h3 {
+  margin: 0;
+}
+#servicos .servico .btn-servicos:hover {
+  background-color: #f1eaa1;
+}
+#servicos .servico .itens {
+  background-color: #FBF9E4;
+  padding: 20px;
+  margin-top: 10px;
+  display: none;
+}
+#servicos .servico .itens p {
+  font-weight: 300;
+  color: #561415;
+}
+#servicos .servico .itens p:before {
+  position: absolute;
+  left: -3px;
+}
+#servicos .servico-1 {
+  background: #9f3f48 url(../../img/fundos/servicos-gestao-contratos.png) no-repeat;
+  background-size: cover;
+}
+#servicos .servico-1 .btn-servicos h3 {
+  color: #9f3f48;
+}
+#servicos .servico-1 .itens p:before {
+  content: "\f016";
+  font-family: FontAwesome;
+  color: #9f3f48;
+}
+#servicos .servico-2 {
+  background: #771c1b url(../../img/fundos/servicos-plano-carreira.png) no-repeat;
+  background-size: cover;
+}
+#servicos .servico-2 .btn-servicos h3 {
+  color: #771c1b;
+}
+#servicos .servico-2 .itens p:before {
+  content: "\f073";
+  font-family: FontAwesome;
+  color: #771c1b;
+}
+#servicos .servico-3 {
+  background: #814b31 url(../../img/fundos/servicos-remuneracao.png) no-repeat;
+  background-size: cover;
+}
+#servicos .servico-3 .btn-servicos h3 {
+  color: #814b31;
+}
+#servicos .servico-3 .itens p:before {
+  content: "\f067";
+  font-family: FontAwesome;
+  color: #814b31;
+}
+#servicos .servico-4 {
+  background: #142542 url(../../img/fundos/servicos-comunicacao.png) no-repeat;
+  background-size: cover;
+}
+#servicos .servico-4 .btn-servicos h3 {
+  color: #142542;
+}
+#servicos .servico-4 .itens p:before {
+  content: "\f0a1";
+  font-family: FontAwesome;
+  color: #142542;
+}
+#servicos .servico-5 {
+  background: #ae4f4d url(../../img/fundos/servicos-relacoes-trabalhistas.png) no-repeat;
+  background-size: cover;
+}
+#servicos .servico-5 .btn-servicos h3 {
+  color: #ae4f4d;
+}
+#servicos .servico-5 .itens p:before {
+  content: "\f022";
+  font-family: FontAwesome;
+  color: #ae4f4d;
+}
+#servicos .servico-6 {
+  background: #783c22 url(../../img/fundos/servicos-seguranca.png) no-repeat;
+  background-size: cover;
+}
+#servicos .servico-6 .btn-servicos h3 {
+  color: #783c22;
+}
+#servicos .servico-6 .itens p:before {
+  content: "\f132";
+  font-family: FontAwesome;
+  color: #783c22;
+}
+#blog {
+  background: url(../../img/fundos/filete-fundo-chamada-1.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 355px;
+  margin-top: 50px;
+}
+#blog .parallax {
+  background: url(../../img/fundos/parallax-blog.png) no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  top: 49px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+#blog .parallax h1 {
+  color: #CE7E26;
+  text-transform: uppercase;
+}
+#Home {
+  position: relative;
+  top: 0;
+}
+#Sobre {
+  position: relative;
+  top: -70px;
+}
+#rodape {
+  background: #ffffff url(../../img/fundos/fundo-logo-rodape.png) center no-repeat;
+  text-align: center;
+  color: #230100;
+  padding: 100px 0;
+}
+#rodape h1 {
+  font-weight: 700;
+  color: #230100;
+}
+#rodape .ft-dtq {
+  font-weight: 300;
+  font-size: 26px;
+}
+#rodape .numero {
+  font-size: 26px;
+  font-weight: 400;
+}
+#rodape .numero span {
+  font-weight: 300;
+  font-size: 18px;
+}
+#rodape p {
+  font-size: 18px;
+}
+#rodape .row {
+  margin-top: 30px;
+}
+#rodape .row p {
+  text-align: left;
+}
+#rodape .row .form-control {
+  border-radius: 0px;
+  border: 1px solid #783C22;
+}
+#rodape .row .btn-enviar {
+  background-color: #783c22;
+  color: #ffffff;
+  border-radius: 0;
+}
+#agencia {
+  margin: 0 auto;
+  max-width: 80px;
+}
+@media (max-width: 768px) {
+  #logo {
+    margin: 15px;
+  }
+  #menu {
+    top: 0;
+  }
+  #menu .itens {
+    display: none;
+  }
+  #menu .btn-mobile {
+    display: block;
+  }
+  #chamada-topo .parallax h1 .alinha {
+    margin-left: 0;
+  }
+  #servicos .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

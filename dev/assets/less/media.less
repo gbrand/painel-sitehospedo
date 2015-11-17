@@ -1,0 +1,30 @@
+@import "lib/mixins.less";
+@media(max-width:768px) {
+    #logo {
+        margin: 15px;
+    }
+    #menu {
+        top: 0;
+        .itens {
+            display: none;
+        }
+        .btn-mobile {
+            display: block;
+        }
+    }
+    #chamada-topo {
+        .parallax {
+            h1 {
+                .alinha {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    #servicos {
+        .container-fluid {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}
