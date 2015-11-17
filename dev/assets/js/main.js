@@ -55,23 +55,22 @@ $(document).ready(function() {
     });
 
     // Formulario
-     jQuery('#contatoForm').submit(function(){
-             var dados = jQuery( this ).serialize();
-          $("#form-load").html("<center><img  src='assets/img/outros/loader.GIF' alt='Enviando' class='tet-center' /></center>");
-             jQuery.ajax({
-               type: "POST",
-               url: "modulos/enviar-contato.php",
-               data: dados,
-               success: function( data )
-               {
-                 $("#form-load").html(data);
-                 $('#contatoForm').each (function(){
-                     this.reset();
-                  });
-               }
-             });
-             
-             return false;
-           });
+    jQuery('#contatoForm').submit(function() {
+        var dados = jQuery(this).serialize();
+        $("#form-load").html("<center><img  src='assets/img/outros/loader.GIF' alt='Enviando' class='tet-center' /></center>");
+        jQuery.ajax({
+            type: "POST",
+            url: "modulos/enviar-contato.php",
+            data: dados,
+            success: function(data) {
+                $("#form-load").html(data);
+                $('#contatoForm').each(function() {
+                    this.reset();
+                });
+            }
+        });
+
+        return false;
+    });
 
 });

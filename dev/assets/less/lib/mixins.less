@@ -64,7 +64,6 @@
 	background-color: @vermelho;
 	color: lighten(@vermelho, 50%);
 	border: 1px darken(@vermelho, 3%) solid;
-	.add-transition(0.4s);
 
 	&:hover,&:active,&:focus{
 		background-color: lighten(@vermelho, 10%);
@@ -75,19 +74,27 @@
 	background-color: transparent;
 	color: lighten(@vermelho, 10%);
 	border: 1px lighten(@vermelho, 15%) solid;
-	.add-transition(0.4s);
 
 	&:hover,&:active,&:focus{
 		background-color: lighten(@vermelho, 10%);
 		color: lighten(@vermelho, 50%);
 	}
 }
+
+.form-control{
+	&.addon-left{
+		border-left: 0;
+	}
+
+	&.addon-right{
+		border-right: 0;
+	}
+}
 // Roxo
 .btn-roxo-full{
 	background-color: @roxo;
-	color: lighten(@roxo, 50%);
+	color: lighten(@roxo, 70%);
 	border: 1px darken(@roxo, 3%) solid;
-	.add-transition(0.4s);
 
 	&:hover,&:active,&:focus{
 		background-color: lighten(@roxo, 10%);
@@ -98,7 +105,6 @@
 	background-color: transparent;
 	color: lighten(@roxo, 10%);
 	border: 1px lighten(@roxo, 15%) solid;
-	.add-transition(0.4s);
 
 	&:hover,&:active,&:focus{
 		background-color: lighten(@roxo, 10%);
@@ -110,7 +116,7 @@
 	background-color: @amarelo;
 	color: lighten(@amarelo, 50%);
 	border: 1px darken(@amarelo, 3%) solid;
-	.add-transition(0.4s);
+	.add-transition(0.2s);
 
 	&:hover,&:active,&:focus{
 		background-color: lighten(@amarelo, 10%);
@@ -121,7 +127,7 @@
 	background-color: transparent;
 	color: lighten(@amarelo, 10%);
 	border: 1px lighten(@amarelo, 15%) solid;
-	.add-transition(0.4s);
+	.add-transition(0.2s);
 
 	&:hover,&:active,&:focus{
 		background-color: lighten(@amarelo, 10%);

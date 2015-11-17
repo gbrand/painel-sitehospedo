@@ -1,108 +1,121 @@
 @import '../../../node_modules/bootstrap/less/bootstrap.less';
 @import "lib/mixins.less";
 @import "resets.less";
-
-
-#demo{
-	.text-center();
-	.container;
-	
-	img{
-		.img-responsive;
-		.center-auto;
-		.pad-y(20px);
-	}
-	// Cores
-    .cores{
+#demo {
+    .text-center();
+    .container;
+    img {
+        .img-responsive;
+        .center-auto;
+        .pad-y(20px);
+    }
+    // Cores
+    .cores {
         .make-row();
-    	.clearfix;
-    	.well;
+        .clearfix;
+        .well;
+        .bg-vermelho,
+        .bg-roxo,
+        .bg-amarelo {
+            .make-column(12, 12, 4, 4);
+            padding: 30px;
+        }
+        .bg-vermelho {
+            h3 {
+                color: lighten(@vermelho, 20%);
+            }
+        }
+        .bg-roxo {
+            h3 {
+                color: lighten(@roxo, 20%);
+            }
+        }
+        .bg-amarelo {
+            h3 {
+                color: lighten(@amarelo, 20%);
+            }
+        }
+    }
+    // Tipografia
+    .tipografia {
+        .make-row();
+        .clearfix;
+        .headers,
+        .paragrafo {
+            .make-column(12, 12, 12, 12);
+            .well;
+        }
+        .paragrafo {
+            p {
+                span {
+                    font-size: @font-size-h4;
+                }
+            }
+        }
+    }
+    // Botões custom
+    .botoes-custom {
+        .make-row();
+        .clearfix;
+        .well;
+        .col {
+            .make-column(12, 12, 4, 4);
+            .btns {
+                .make-row();
+                .full,
+                .light {
+                    .make-column(12, 12, 6, 6);
+                    a {
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+    // Botoes default
+    .botoes-default {
+        .make-row();
+        .clearfix;
+        .well;
+        .col {
+            .make-column(12, 12, 4, 4);
+            &.off {
+                .make-md-column-offset(1);
+            }
+            &.menor {
+                .make-column(12, 12, 3, 3);
+            }
+            .btns {
+                .make-row();
+                .full,
+                .light {
+                    .make-column(12, 12, 6, 6);
+                    a {
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+    // Formularios
+    .formularios {
+    	.text-left;
 
-    .bg-vermelho, .bg-roxo, .bg-amarelo{
-    	.make-column(12,12,4,4);
-		padding: 30px;
+        .inputs {
+            .make-row();
+            .col {
+                .make-column(12, 12, 12, 12);
+                .well;
+
+            }
+
+        }
     }
 
-    .bg-vermelho{
-    	h3{
-    		color: lighten(@vermelho, 20%);
-    	}
-    }
+    // Tabelas
+    .tabelas, .progress-bars{
+            	.make-row();
+            	.well;
+            }
 
-    .bg-roxo{
-    	h3{
-    		color: lighten(@roxo, 20%);
-    	}
-    }
-
-    .bg-amarelo{
-    	h3{
-    		color: lighten(@amarelo, 20%);
-    	}
-    }
-	}
-	// Tipografia
-	.tipografia{
-		.make-row();
-		.clearfix;
-
-		.headers, .paragrafo{
-			.make-column(12,12,12,12);
-			.well;
-		}
-
-		.paragrafo{
-			p{
-				span{
-					font-size: @font-size-h4;
-				}
-			}
-		}
-	}
-	// Botões custom
-	.botoes-custom{
-		.make-row();
-		.clearfix;
-		.well;
-
-		.col{
-			.make-column(12,12,4,4);
-			.btns{
-				.make-row();
-				.full, .light{
-					.make-column(12,12,6,6);
-					a{
-						margin: 10px;
-					}
-				}
-			}
-		}
-	}
-	// Botoes default
-	.botoes-default{
-		.make-row();
-		.clearfix;
-		.well;
-		
-		.col{
-			.make-column(12,12,4,4);
-			
-			&.off{
-				.make-md-column-offset(1);
-			}
-
-			&.menor{
-				.make-column(12,12,3,3);
-			}
-			.btns{
-				.make-row();
-				.full, .light{
-					.make-column(12,12,6,6);
-					a{
-						margin: 10px;
-					}
-				}
-			}
-		}
-	}
 }
