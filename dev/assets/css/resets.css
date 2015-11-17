@@ -22,7 +22,7 @@
 .btn-vermelho-full {
   background-color: #BD2025;
   color: #fae2e3;
-  border: 1px #b01e22 solid;
+  border: 2px #b01e22 solid;
 }
 .btn-vermelho-full:hover,
 .btn-vermelho-full:active,
@@ -33,7 +33,7 @@
 .btn-vermelho-light {
   background-color: transparent;
   color: #dd3339;
-  border: 1px #e0494e solid;
+  border: 2px #e0494e solid;
 }
 .btn-vermelho-light:hover,
 .btn-vermelho-light:active,
@@ -50,7 +50,7 @@
 .btn-roxo-full {
   background-color: #3D1D3B;
   color: #ebd4e9;
-  border: 1px #331831 solid;
+  border: 2px #331831 solid;
 }
 .btn-roxo-full:hover,
 .btn-roxo-full:active,
@@ -61,7 +61,7 @@
 .btn-roxo-light {
   background-color: transparent;
   color: #602d5c;
-  border: 1px #71366d solid;
+  border: 2px #71366d solid;
 }
 .btn-roxo-light:hover,
 .btn-roxo-light:active,
@@ -72,7 +72,7 @@
 .btn-amarelo-full {
   background-color: #C87C29;
   color: #fdf8f3;
-  border: 1px #bb7426 solid;
+  border: 2px #bb7426 solid;
   -webkit-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -86,7 +86,7 @@
 .btn-amarelo-light {
   background-color: transparent;
   color: #da954a;
-  border: 1px #dea25f solid;
+  border: 2px #dea25f solid;
   -webkit-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
