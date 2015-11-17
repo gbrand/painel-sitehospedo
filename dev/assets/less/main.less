@@ -2,14 +2,24 @@
 @import "lib/mixins.less";
 @import "resets.less";
 
+
 #demo{
 	.text-center();
+	.container;
+	
+	img{
+		.img-responsive;
+		.center-auto;
+		.pad-y(20px);
+	}
+	// Cores
     .cores{
         .make-row();
-    }
+    	.clearfix;
+    	.well;
 
     .bg-vermelho, .bg-roxo, .bg-amarelo{
-    	.make-md-column(4);
+    	.make-column(12,12,4,4);
 		padding: 30px;
     }
 
@@ -30,4 +40,26 @@
     		color: lighten(@amarelo, 20%);
     	}
     }
+	}
+	// Tipografia
+	.tipografia{
+		.make-row();
+		.clearfix;
+
+		.headers{
+			.make-column(12,12,12,12);
+			.well;
+		}
+
+		.paragrafo{
+			.make-column(12,12,12,12);
+			.well;
+
+			p{
+				span{
+					font-size: @font-size-h4;
+				}
+			}
+		}
+	}
 }

@@ -2,9 +2,10 @@
 @roxo: #3D1D3B;
 @vermelho: #BD2025;
 @amarelo: #C87C29;
-@cinza: #27363E;
+@cinza: #5A5A5A;
+@azul-escuro: #262F3A;
 
-// Helpers
+// Helpers cores
 .bg-roxo{
 	background-color: @roxo;
 }
@@ -13,6 +14,22 @@
 }
 .bg-amarelo{
 	background-color: @amarelo;
+}
+
+.roxo{
+	color: @roxo;
+}
+
+.vermelho{
+	color: @vermelho;
+}
+
+.amarelo{
+	color: @amarelo;
+}
+
+.center-auto{
+	margin: 0 auto;
 }
 
 // Mixins
@@ -38,4 +55,8 @@
 	background-color: @bg-color;
 	color: @ft-color;
 	border-radius: @radius;
+}
+
+.pad-y(@pad){
+	padding: @pad 0;
 }

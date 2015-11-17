@@ -7,10 +7,22 @@
 .bg-amarelo {
   background-color: #C87C29;
 }
+.roxo {
+  color: #3D1D3B;
+}
+.vermelho {
+  color: #BD2025;
+}
+.amarelo {
+  color: #C87C29;
+}
+.center-auto {
+  margin: 0 auto;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color: #888;
-  background-color: #27363E;
+  color: #262F3A;
+  background-color: #5A5A5A;
 }
