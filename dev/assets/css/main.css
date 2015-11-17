@@ -3045,7 +3045,7 @@ fieldset[disabled] a.btn {
 .btn-default {
   color: #333;
   background-color: #fff;
-  border-color: #ccc;
+  border: 2px #ccc solid;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -3111,7 +3111,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
   color: #fff;
   background-color: #337ab7;
-  border-color: #2e6da4;
+  border: 2px #2e6da4 solid;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -3177,7 +3177,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-success {
   color: #fff;
   background-color: #3da07b;
-  border-color: #368e6d;
+  border: 2px #368e6d solid;
 }
 .btn-success:focus,
 .btn-success.focus {
@@ -3243,7 +3243,7 @@ fieldset[disabled] .btn-success.active {
 .btn-info {
   color: #fff;
   background-color: #5bc0de;
-  border-color: #46b8da;
+  border: 2px #46b8da solid;
 }
 .btn-info:focus,
 .btn-info.focus {
@@ -3309,7 +3309,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning {
   color: #fff;
   background-color: #f0ad4e;
-  border-color: #eea236;
+  border: 2px #eea236 solid;
 }
 .btn-warning:focus,
 .btn-warning.focus {
@@ -3375,7 +3375,7 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger {
   color: #fff;
   background-color: #d9534f;
-  border-color: #d43f3a;
+  border: 2px #d43f3a solid;
 }
 .btn-danger:focus,
 .btn-danger.focus {

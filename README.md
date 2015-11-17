@@ -1,2 +1,2 @@
-# painel-sitehospedo
-Painel de controle para clientes da hospedagem
+# Painel Site Hospedo
+Painel de controle para clientes da hospedagem.
