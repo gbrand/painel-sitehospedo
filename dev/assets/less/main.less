@@ -46,18 +46,61 @@
 		.make-row();
 		.clearfix;
 
-		.headers{
+		.headers, .paragrafo{
 			.make-column(12,12,12,12);
 			.well;
 		}
 
 		.paragrafo{
-			.make-column(12,12,12,12);
-			.well;
-
 			p{
 				span{
 					font-size: @font-size-h4;
+				}
+			}
+		}
+	}
+	// Botões custom
+	.botoes-custom{
+		.make-row();
+		.clearfix;
+		.well;
+
+		.col{
+			.make-column(12,12,4,4);
+			.btns{
+				.make-row();
+				.full, .light{
+					.make-column(12,12,6,6);
+					a{
+						margin: 10px;
+					}
+				}
+			}
+		}
+	}
+	// Botoes default
+	.botoes-default{
+		.make-row();
+		.clearfix;
+		.well;
+		
+		.col{
+			.make-column(12,12,4,4);
+			
+			&.off{
+				.make-md-column-offset(1);
+			}
+
+			&.menor{
+				.make-column(12,12,3,3);
+			}
+			.btns{
+				.make-row();
+				.full, .light{
+					.make-column(12,12,6,6);
+					a{
+						margin: 10px;
+					}
 				}
 			}
 		}

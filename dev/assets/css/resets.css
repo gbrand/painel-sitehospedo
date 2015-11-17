@@ -19,10 +19,87 @@
 .center-auto {
   margin: 0 auto;
 }
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  font-weight: 300;
-  color: #262F3A;
-  background-color: #5A5A5A;
+.btn-vermelho-full {
+  background-color: #BD2025;
+  color: #fae2e3;
+  border: 1px #b01e22 solid;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.btn-vermelho-full:hover,
+.btn-vermelho-full:active,
+.btn-vermelho-full:focus {
+  background-color: #dd3339;
+  color: #fae2e3;
+}
+.btn-vermelho-light {
+  background-color: transparent;
+  color: #dd3339;
+  border: 1px #e0494e solid;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.btn-vermelho-light:hover,
+.btn-vermelho-light:active,
+.btn-vermelho-light:focus {
+  background-color: #dd3339;
+  color: #fae2e3;
+}
+.btn-roxo-full {
+  background-color: #3D1D3B;
+  color: #ca8fc6;
+  border: 1px #331831 solid;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.btn-roxo-full:hover,
+.btn-roxo-full:active,
+.btn-roxo-full:focus {
+  background-color: #602d5c;
+  color: #ca8fc6;
+}
+.btn-roxo-light {
+  background-color: transparent;
+  color: #602d5c;
+  border: 1px #71366d solid;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.btn-roxo-light:hover,
+.btn-roxo-light:active,
+.btn-roxo-light:focus {
+  background-color: #602d5c;
+  color: #ca8fc6;
+}
+.btn-amarelo-full {
+  background-color: #C87C29;
+  color: #fdf8f3;
+  border: 1px #bb7426 solid;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.btn-amarelo-full:hover,
+.btn-amarelo-full:active,
+.btn-amarelo-full:focus {
+  background-color: #da954a;
+  color: #fdf8f3;
+}
+.btn-amarelo-light {
+  background-color: transparent;
+  color: #da954a;
+  border: 1px #dea25f solid;
+  -webkit-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.btn-amarelo-light:hover,
+.btn-amarelo-light:active,
+.btn-amarelo-light:focus {
+  background-color: #da954a;
+  color: #fdf8f3;
 }
