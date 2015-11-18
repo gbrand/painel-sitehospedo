@@ -4522,8 +4522,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #f0f0f0;
+  border-color: #dfdfdf;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4541,14 +4541,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: #3d1d3c;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #e7e7e7;
+  background-color: #dfdfdf;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4568,12 +4568,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #e7e7e7;
+  border-color: #dfdfdf;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #e7e7e7;
+  background-color: #dfdfdf;
   color: #555;
 }
 @media (max-width: 767px) {
@@ -4582,14 +4582,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333;
+    color: #3d1d3c;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7;
+    background-color: #dfdfdf;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -4602,14 +4602,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-link:hover {
-  color: #333;
+  color: #3d1d3c;
 }
 .navbar-default .btn-link {
   color: #777;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-  color: #333;
+  color: #3d1d3c;
 }
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
@@ -4723,7 +4723,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   padding: 8px 15px;
   margin-bottom: 24px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: #f0f0f0;
   border-radius: 3px;
 }
 .breadcrumb > li {
@@ -5212,7 +5212,7 @@ a.thumbnail.active {
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
 }
 .progress-bar-roxo {
-  background-color: #3D1D3B;
+  background-color: #3d1d3c;
 }
 .progress-striped .progress-bar-roxo {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -6554,7 +6554,9 @@ button.close {
 #demo .tabelas:before,
 #demo .tabelas:after,
 #demo .progress-bars:before,
-#demo .progress-bars:after {
+#demo .progress-bars:after,
+#painel #main:before,
+#painel #main:after {
   content: " ";
   display: table;
 }
@@ -6582,7 +6584,8 @@ button.close {
 #demo .botoes-default .col .btns:after,
 #demo .formularios .inputs:after,
 #demo .tabelas:after,
-#demo .progress-bars:after {
+#demo .progress-bars:after,
+#painel #main:after {
   clear: both;
 }
 .center-block {
@@ -6829,7 +6832,7 @@ button.close {
   }
 }
 .bg-roxo {
-  background-color: #3D1D3B;
+  background-color: #3d1d3c;
 }
 .bg-vermelho {
   background-color: #BD2025;
@@ -6838,7 +6841,7 @@ button.close {
   background-color: #C87C29;
 }
 .roxo {
-  color: #3D1D3B;
+  color: #3d1d3c;
 }
 .vermelho {
   color: #BD2025;
@@ -6880,25 +6883,25 @@ button.close {
   border-right: 0;
 }
 .btn-roxo-full {
-  background-color: #3D1D3B;
-  color: #ebd4e9;
+  background-color: #3d1d3c;
+  color: #ebd4ea;
 }
 .btn-roxo-full:hover,
 .btn-roxo-full:active,
 .btn-roxo-full:focus {
-  background-color: #602d5c;
-  color: #ca8fc6;
+  background-color: #602d5e;
+  color: #ca8fc8;
 }
 .btn-roxo-light {
   background-color: transparent;
-  color: #602d5c;
-  border: 2px #71366d solid;
+  color: #602d5e;
+  border: 2px #71366f solid;
 }
 .btn-roxo-light:hover,
 .btn-roxo-light:active,
 .btn-roxo-light:focus {
-  background-color: #602d5c;
-  color: #ca8fc6;
+  background-color: #602d5e;
+  color: #ca8fc8;
 }
 .btn-amarelo-full {
   background-color: #C87C29;
@@ -7039,7 +7042,7 @@ button.close {
   color: #e45f63;
 }
 #demo .cores .bg-roxo h3 {
-  color: #823e7e;
+  color: #823e80;
 }
 #demo .cores .bg-amarelo h3 {
   color: #e3ae74;
@@ -7473,4 +7476,180 @@ button.close {
 #login .sth-icone-bottom {
   margin: 0 auto;
   max-width: 50px;
+}
+#painel {
+  background-color: #d6d6d6;
+}
+#painel #topo {
+  background-color: #ebebeb;
+  padding-bottom: 50px;
+}
+#painel #topo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-width: 250px;
+}
+#painel #topo .logo,
+#painel #topo .sth-menu-usuario {
+  float: left;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  #painel #topo .logo,
+  #painel #topo .sth-menu-usuario {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  #painel #topo .logo,
+  #painel #topo .sth-menu-usuario {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  #painel #topo .logo,
+  #painel #topo .sth-menu-usuario {
+    float: left;
+    width: 50%;
+  }
+}
+#painel #topo .logo img {
+  float: left;
+  padding: 30px 0;
+}
+#painel #topo .sth-menu-usuario .sth-icone {
+  float: right;
+  position: relative;
+  top: 80px;
+  z-index: 1;
+}
+#painel #main {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 2px solid #C3B9C2;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  min-height: 500px;
+  margin-top: -55px;
+}
+@media (min-width: 768px) {
+  #painel #main {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  #painel #main {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #painel #main {
+    width: 1170px;
+  }
+}
+#painel #main > .navbar-header,
+#painel #main > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  #painel #main > .navbar-header,
+  #painel #main > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+#painel #main blockquote {
+  border-color: #ddd;
+  border-color: rgba(0, 0, 0, 0.15);
+}
+@media (min-width: 1200px) {
+  #painel #main {
+    width: 1250px;
+  }
+}
+#painel #main .sth-menu-lateral {
+  float: left;
+  width: 25%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  #painel #main .sth-menu-lateral {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  #painel #main .sth-menu-lateral {
+    float: left;
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  #painel #main .sth-menu-lateral {
+    float: left;
+    width: 25%;
+  }
+}
+#painel #main .sth-menu-lateral .sidebar-nav .titulo {
+  background-color: #3d1d3c;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+#painel #main .sth-menu-lateral .sidebar-nav .titulo a {
+  color: #fff;
+  padding: 5px 15px;
+}
+#painel #main .sth-menu-lateral .sidebar-nav .nav-list a {
+  padding-left: 40px;
+  color: #999;
+}
+#painel #main .sth-menu-lateral .sidebar-nav .nav-list a i {
+  color: #dea25f;
+}
+#painel #main .sth-menu-lateral .minha-conta {
+  margin-top: 20px;
+}
+#painel #main .pagina {
+  float: left;
+  width: 75%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  #painel #main .pagina {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 992px) {
+  #painel #main .pagina {
+    float: left;
+    width: 75%;
+  }
+}
+@media (min-width: 1200px) {
+  #painel #main .pagina {
+    float: left;
+    width: 75%;
+  }
 }

@@ -1,5 +1,5 @@
 .bg-roxo {
-  background-color: #3D1D3B;
+  background-color: #3d1d3c;
 }
 .bg-vermelho {
   background-color: #BD2025;
@@ -8,7 +8,7 @@
   background-color: #C87C29;
 }
 .roxo {
-  color: #3D1D3B;
+  color: #3d1d3c;
 }
 .vermelho {
   color: #BD2025;
@@ -50,25 +50,25 @@
   border-right: 0;
 }
 .btn-roxo-full {
-  background-color: #3D1D3B;
-  color: #ebd4e9;
+  background-color: #3d1d3c;
+  color: #ebd4ea;
 }
 .btn-roxo-full:hover,
 .btn-roxo-full:active,
 .btn-roxo-full:focus {
-  background-color: #602d5c;
-  color: #ca8fc6;
+  background-color: #602d5e;
+  color: #ca8fc8;
 }
 .btn-roxo-light {
   background-color: transparent;
-  color: #602d5c;
-  border: 2px #71366d solid;
+  color: #602d5e;
+  border: 2px #71366f solid;
 }
 .btn-roxo-light:hover,
 .btn-roxo-light:active,
 .btn-roxo-light:focus {
-  background-color: #602d5c;
-  color: #ca8fc6;
+  background-color: #602d5e;
+  color: #ca8fc8;
 }
 .btn-amarelo-full {
   background-color: #C87C29;
