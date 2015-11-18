@@ -22,6 +22,9 @@
 .light {
   color: #929292;
 }
+.nav-tabs {
+  margin-bottom: 30px;
+}
 .btn-vermelho-full {
   background-color: #BD2025;
   color: #fae2e3;

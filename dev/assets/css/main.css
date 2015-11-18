@@ -4066,8 +4066,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #7f7f7f;
-  background-color: #d6d6d6;
+  color: #492d0f;
+  background-color: #ebc79f;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -6855,6 +6855,9 @@ button.close {
 .light {
   color: #929292;
 }
+.nav-tabs {
+  margin-bottom: 30px;
+}
 .btn-vermelho-full {
   background-color: #BD2025;
   color: #fae2e3;
@@ -7652,4 +7655,8 @@ button.close {
     float: left;
     width: 75%;
   }
+}
+#painel .creditos {
+  color: #b0b0b0;
+  text-align: center;
 }
