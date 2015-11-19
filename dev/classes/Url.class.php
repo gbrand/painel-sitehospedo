@@ -2,7 +2,7 @@
 class Url
 {
     private static $url = null;
-    private static $baseUrl = "http://hospedo.app/";
+    private static $baseUrl = "http://localhost/painel-sitehospedo/dev/";
 
     public static function getBase()
     {

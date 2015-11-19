@@ -1,4 +1,5 @@
 @import '../../../node_modules/bootstrap/less/bootstrap.less';
+@import '../../../node_modules/bootstrap-slider/less/bootstrap-slider.less';
 @import "lib/mixins.less";
 @import "resets.less";
 #demo {
@@ -175,12 +176,12 @@
             }
         }
         .sth-menu-usuario {
-			.sth-icone{
-				float: right;
-				position: relative;
-				top: 80px;
-				z-index: 1;
-			}
+            .sth-icone {
+                float: right;
+                position: relative;
+                top: 80px;
+                z-index: 1;
+            }
         }
     }
     // conteudo main
@@ -221,9 +222,27 @@
             .make-column(9, 9, 9, 9);
         }
     }
+    .creditos {
+        color: darken(@body-bg, 15%);
+        .text-center;
+    }
+    // Forms que abrem dentro do painel
+    #criar-email {
+        .form-novo-email,
+        .senha,
+        .cfrm-senha{
+            .make-column(12, 12, 6, 6);
+        }
+        
+        .dicas{
+            .well;
+            .make-column(12, 12, 5, 5);
+                        .make-offset(1,1,1,1);
 
-    .creditos{
-    	color: darken(@body-bg, 15%);
-    	.text-center;
+        }
+
+        .espaco-conta {
+            .make-column(12,12,12,12);
+        }
     }
 }

@@ -37,14 +37,14 @@ module.exports = function(grunt) {
                 separator: ''
             },
             dist: {
-                src: ['dev/assets/css/main.css'],
-                dest: 'dev/assets/css/main.css'
+                src: ['node_modules/bootstrap/dist/js/bootstrap.js', 'node_modules/bootstrap-slider/js/bootstrap-slider.js', 'dev/assets/js/custom.js'],
+                dest: 'dev/assets/js/main.js'
             }
         }, // Concat
         watch: {
             scripts: {
-                files: ['dev/assets/js/main.js', 'dev/assets/less/lib/mixins.less', 'dev/assets/less/main.less', 'dev/assets/less/resets.less'],
-                tasks: ['less', 'cssmin', 'uglify'],
+                files: ['dev/assets/js/custom.js', 'dev/assets/less/lib/mixins.less', 'dev/assets/less/main.less', 'dev/assets/less/resets.less'],
+                tasks: ['less', 'cssmin', 'concat', 'uglify'],
                 options: {
                     spawn: false
                 }
@@ -74,10 +74,13 @@ module.exports = function(grunt) {
             }
         },
         "jsbeautifier": {
-            files: ["dev/*.html", "dev/assets/js/*.js", "dev/assets/less/*.less"],
+            files: ["dev/*.php", "dev/assets/js/*.js", "dev/assets/less/*.less", "dev/modulos/*/*.php"],
             options: {
                 css: {
                     fileTypes: [".less"]
+                },
+                php: {
+                    fileTypes: [".html"]
                 }
             }
         } // JsBeautfier
