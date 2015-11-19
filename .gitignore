@@ -1,2 +1,12 @@
-node_modules/
+node_modules/grunt
+node_modules/grunt-cli
+node_modules/grunt-contrib-compress
+node_modules/grunt-contrib-concat
+node_modules/grunt-contrib-cssmin
+node_modules/grunt-contrib-less
+node_modules/grunt-contrib-uglify
+node_modules/grunt-contrib-watch
+node_modules/grunt-ftp-deploy
+node_modules/grunt-jsbeautifier
+node_modules/.bin
 .ftppass
