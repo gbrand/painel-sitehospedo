@@ -21,7 +21,7 @@ $basePath = "http://hospedo.app/";
 $user = "contato@gbrand.com.br";
 $pass = "gbrand@@2015";
 $cliente = "187381";
-$dominio = "562306";
+$dominio = "391872";
 $dominios = new Dominio($user , $pass);
 $getDomnios = arrayToObject($dominios->getDominios($cliente));
 // print_r((object ) $getDomnios['body']);

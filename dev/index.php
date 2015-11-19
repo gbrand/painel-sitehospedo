@@ -2,7 +2,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +40,7 @@
     <section id="main">
         <div class="row">
             <!-- Menu lateral -->
-            <aside class="sth-menu-lateral">
+     <aside class="sth-menu-lateral">
                 <div class="sidebar-nav">
                     <div class="navbar navbar-default" role="navigation">
                         <div class="navbar-header">
@@ -63,26 +62,114 @@
                                   </a>
                               </li>
                               <!-- lions.com.br -->
-                              <?php
-                              foreach ($getDomnios->body as $values) {
-                                ?>
 
                                 <li>
-                                    <a href="#" data-toggle="collapse" data-target="#dominio<?php echo $values->id; ?>" data-parent="#menu-lateral" class="collapsed">
-                                      <?php echo $values->dominio; ?> <span class="caret pull-right"></span>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio555435" data-parent="#menu-lateral" class="collapsed">
+                                      cabanaskaialua.uni5.net <span class="caret pull-right"></span>
                                   </a>
-                                  <div class="collapse" id="dominio<?php echo $values->id; ?>" style="height: 0px;">
+                                  <div class="collapse" id="dominio555435" style="height: 0px;">
                                     <ul class="nav nav-list">
-                                        <li><a href="/dominios/index/?dominio=<?php echo $values->id; ?>"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="/dominios/index/?dominio=555435"><i class="fa fa-envelope"></i> Emails</a></li>
                                         <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
                                     </ul>
                                 </div>
                             </li>
-                            <?php
 
-                        }
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio555962" data-parent="#menu-lateral" class="collapsed">
+                                      campanarigaleteria.com.br <span class="caret pull-right"></span>
+                                  </a>
+                                  <div class="collapse" id="dominio555962" style="height: 0px;">
+                                    <ul class="nav nav-list">
+                                        <li><a href="/dominios/index/?dominio=555962"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
+                                    </ul>
+                                </div>
+                            </li>
 
-                        ?>
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio524663" data-parent="#menu-lateral" class="collapsed">
+                                      complexb.com.br <span class="caret pull-right"></span>
+                                  </a>
+                                  <div class="collapse" id="dominio524663" style="height: 0px;">
+                                    <ul class="nav nav-list">
+                                        <li><a href="/dominios/index/?dominio=524663"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio308225" data-parent="#menu-lateral" class="collapsed">
+                                      gbrand.com.br <span class="caret pull-right"></span>
+                                  </a>
+                                  <div class="collapse" id="dominio308225" style="height: 0px;">
+                                    <ul class="nav nav-list">
+                                        <li><a href="/dominios/index/?dominio=308225"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio56812" data-parent="#menu-lateral" class="collapsed">
+                                      godown.com.br <span class="caret pull-right"></span>
+                                  </a>
+                                  <div class="collapse" id="dominio56812" style="height: 0px;">
+                                    <ul class="nav nav-list">
+                                        <li><a href="/dominios/index/?dominio=56812"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio448652" data-parent="#menu-lateral" class="collapsed">
+                                      helpdesign.com.br <span class="caret pull-right"></span>
+                                  </a>
+                                  <div class="collapse" id="dominio448652" style="height: 0px;">
+                                    <ul class="nav nav-list">
+                                        <li><a href="/dominios/index/?dominio=448652"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio556771" data-parent="#menu-lateral" class="collapsed">
+                                      regenciadho.com.br <span class="caret pull-right"></span>
+                                  </a>
+                                  <div class="collapse" id="dominio556771" style="height: 0px;">
+                                    <ul class="nav nav-list">
+                                        <li><a href="/dominios/index/?dominio=556771"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio545328" data-parent="#menu-lateral" class="collapsed">
+                                      sitehospedo.com.br <span class="caret pull-right"></span>
+                                  </a>
+                                  <div class="collapse" id="dominio545328" style="height: 0px;">
+                                    <ul class="nav nav-list">
+                                        <li><a href="/dominios/index/?dominio=545328"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                                <li>
+                                    <a href="#" data-toggle="collapse" data-target="#dominio562306" data-parent="#menu-lateral" class="collapsed">
+                                      testegbrand.com.br <span class="caret pull-right"></span>
+                                  </a>
+                                  <div class="collapse" id="dominio562306" style="height: 0px;">
+                                    <ul class="nav nav-list">
+                                        <li><a href="/dominios/index/?dominio=562306"><i class="fa fa-envelope"></i> Emails</a></li>
+                                        <li><a href="#"><i class="fa fa-globe"></i> Site</a></li>
+                                    </ul>
+                                </div>
+                            </li>
 
         </ul>
     </div>
@@ -129,6 +216,7 @@
 </div>
 </div>
 </aside>
+
 
 <?php
 if(Url::getURL(0) != null){

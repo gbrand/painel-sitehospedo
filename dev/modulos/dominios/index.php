@@ -2,11 +2,7 @@
 <section class="pagina">
 	<ol class="breadcrumb">
 		<li><a href="painel.html">Painel</a></li>
-		<?php
-		$getDadosDominio = arrayToObject($dominios->getDadosDominio($_GET['dominio']));
-			echo '<li class="active">'.$getDadosDominio->body->dominio.'</li>';
-
-		?>
+		<li class="active">gbrand.com.br</li>
 		<li class="active">Gerenciar Emails</li>
 	</ol>
 
@@ -27,23 +23,86 @@
 						</tr>
 					</thead>
 					<tbody>
-						<?php
-						$getEmails = arrayToObject($emails->getEmails($_GET['dominio']));
 
-						foreach ($getEmails->body as $values):
-							?>
-
+						<tr>
+							<td>agencia@gbrand.com.br</td>
+							<td>
+								<a href="/dominios/tamanho/?email=agencia@gbrand.com.br" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
+								<a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+								<a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
 
 
 						<tr>
-							<td><?php echo $values->email; ?></td>
+							<td>agencia@gbrand.com.br</td>
 							<td>
-								<a href="/dominios/tamanho/?email=<?php echo $values->email; ?>" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
-								<a href="/dominios/editar/?email=<?php echo $values->email; ?>" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
-								<a onclick="" href="/dominios/excluir/?email=<?php echo $values->email; ?>" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
+								<a href="/dominios/tamanho/?email=agencia@gbrand.com.br" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
+								<a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+								<a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
 							</td>
 						</tr>
-					<?php endforeach ?>
+
+
+						<tr>
+							<td>agencia@gbrand.com.br</td>
+							<td>
+								<a href="/dominios/tamanho/?email=agencia@gbrand.com.br" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
+								<a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+								<a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>agencia@gbrand.com.br</td>
+							<td>
+								<a href="/dominios/tamanho/?email=agencia@gbrand.com.br" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
+								<a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+								<a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>agencia@gbrand.com.br</td>
+							<td>
+								<a href="/dominios/tamanho/?email=agencia@gbrand.com.br" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
+								<a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+								<a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>agencia@gbrand.com.br</td>
+							<td>
+								<a href="/dominios/tamanho/?email=agencia@gbrand.com.br" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
+								<a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+								<a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>agencia@gbrand.com.br</td>
+							<td>
+								<a href="/dominios/tamanho/?email=agencia@gbrand.com.br" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
+								<a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+								<a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+
+
+						<tr>
+							<td>agencia@gbrand.com.br</td>
+							<td>
+								<a href="/dominios/tamanho/?email=agencia@gbrand.com.br" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
+								<a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+								<a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
+							</td>
+						</tr>
+
 
 
 				</tbody>
