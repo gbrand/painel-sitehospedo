@@ -1,13 +1,21 @@
 $(document).ready(function() {
-    new WOW().init();
+	new WOW().init();
 
-    $('.lista-itens').DataTable({
-        "lengthChange": false
-    });
+	$('.lista-itens').DataTable({
+		"lengthChange": false,
+		"oLanguage": {
+			"sLengthMenu": "Mostrando _MENU_ registros por pagina",
+			"sZeroRecords": "Desculpe, não encontramos nenhum dado!",
+			"sInfo": "Exibindo _START_ de _END_ de _TOTAL_ registros",
+			"sInfoEmpty": "Exibindo 0 de 0 de 0 Registros",
+			"sInfoFiltered": "(filtered from _MAX_ total records)",
+		}
+
+	});
 
 
-    $('[data-toggle="popover"]').popover({
-        html: true
-    });
+	$('[data-toggle="popover"]').popover({
+		html: true
+	});
 
 });
