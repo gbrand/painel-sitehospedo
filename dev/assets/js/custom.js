@@ -20,9 +20,9 @@ $(document).ready(function() {
 
     // Range sliders
     $("#espaco-conta").slider({
-    		formatter: function(value) {
-		return  value + 'mb';
-	}
+        formatter: function(value) {
+            return value + 'mb';
+        }
     });
 
 });

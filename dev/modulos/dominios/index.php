@@ -7,8 +7,8 @@
 
     <!-- Nav tabs -->
     <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active"><a href="#listar-emails" aria-controls="listar-emails" role="tab" data-toggle="tab">Contas</a></li>
-        <li role="presentation"><a href="#criar-email" aria-controls="criar-email" role="tab" data-toggle="tab">Nova conta</a></li>
+        <li role="presentation" class="active"><a href="#listar-emails" aria-controls="listar-emails" role="tab" data-toggle="tab"><i class="fa fa-bars"></i> Contas</a></li>
+        <li role="presentation"><a href="#criar-email" aria-controls="criar-email" role="tab" data-toggle="tab"><i class="fa fa-plus"></i> Nova conta</a></li>
     </ul>
 
     <!-- Tab panes -->
@@ -32,7 +32,7 @@
                                                     <span class='sr-only'>60% Complete</span>
                                                 </div>
                                             </div>  " data-placement="left" class="btn btn-sm btn-roxo-light"><i class="fa fa-tasks"></i></a>
-                            <a href="/dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
+                            <a href="<?php echo Url::getBase(); ?>dominios/editar/?email=agencia@gbrand.com.br" class="btn btn-sm btn-amarelo-light"><i class="fa fa-pencil"></i></a>
                             <a onclick="" href="/dominios/excluir/?email=agencia@gbrand.com.br" class="btn btn-sm btn-vermelho-light"><i class="fa fa-trash-o"></i></a>
                         </td>
                     </tr>
@@ -114,7 +114,7 @@
         </div>
         <div role="tabpanel" class="tab-pane" id="criar-email">
             <div class="row no-mg-lados">
-            <!-- Form coluna esquerda -->
+                <!-- Form coluna esquerda -->
                 <div class="form-novo-email">
                     <form action="">
                         <div class="form-group">
@@ -135,25 +135,25 @@
                                     <input type="password" class="form-control" id="cfrm-senha-conta" placeholder="Confirme a senha">
                                 </div>
                             </div>
-                                   </div>
-                            <div class="row">
-                            	<div class="espaco-conta">
+                        </div>
+                        <div class="row">
+                            <div class="espaco-conta">
                                 <div class="form-group">
-                                <label for="espaco-conta">Espaço</label>
-                                	<input id="espaco-conta" type="text" data-slider-min="1" data-slider-max="100" data-slider-step="1" data-slider-value="1"/>
-                                	</div>
-                                	<div class="form-group">
-                                		<button class="btn btn-md btn-roxo-full">Criar Conta</button>
-                                	</div>
+                                    <label for="espaco-conta">Espaço</label>
+                                    <input id="espaco-conta" type="text" data-slider-min="1" data-slider-max="100" data-slider-step="1" data-slider-value="1" />
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-md btn-roxo-full">Criar Conta</button>
                                 </div>
                             </div>
-                 
+                        </div>
+
 
                     </form>
                 </div>
                 <!-- Dicas coluna direita -->
                 <div class="dicas">
-                	<h4>Tenha agora mesmo um email profissional.</h4>
+                    <h4>Tenha agora mesmo um email profissional.</h4>
                 </div>
             </div>
         </div>

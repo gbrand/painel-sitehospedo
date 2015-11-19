@@ -7840,6 +7840,32 @@ button.close {
 #painel {
   background-color: #d6d6d6;
 }
+#painel .col-6 {
+  float: left;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 768px) {
+  #painel .col-6 {
+    float: left;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  #painel .col-6 {
+    float: left;
+    width: 50%;
+  }
+}
+@media (min-width: 1200px) {
+  #painel .col-6 {
+    float: left;
+    width: 50%;
+  }
+}
 #painel #topo {
   background-color: #ebebeb;
   padding-bottom: 50px;

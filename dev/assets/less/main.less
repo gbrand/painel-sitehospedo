@@ -158,6 +158,9 @@
 // Painel
 #painel {
     background-color: @body-bg;
+    .col-6 {
+        .make-column(12, 12, 6, 6);
+    }
     #topo {
         background-color: lighten(@body-bg, 8%);
         padding-bottom: 50px;
@@ -230,19 +233,18 @@
     #criar-email {
         .form-novo-email,
         .senha,
-        .cfrm-senha{
+        .cfrm-senha {
             .make-column(12, 12, 6, 6);
         }
-        
-        .dicas{
+        .dicas {
             .well;
             .make-column(12, 12, 5, 5);
-                        .make-offset(1,1,1,1);
-
+            .make-offset(1, 1, 1, 1);
         }
-
         .espaco-conta {
-            .make-column(12,12,12,12);
+            .make-column(12, 12, 12, 12);
         }
     }
+    // Form edição de emails
+    #editar-senha-email {}
 }
