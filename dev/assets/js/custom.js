@@ -42,6 +42,61 @@ $(document).ready(function() {
 
         return id;
     };
+    // Ajax plugin
+    // Ballivery 1.0 :p
+    // Só setar as configs do plugin e chamar num evento
+    // Submits de formularios
+    (function ( $ ) {
+ 
+    $.fn.ballivery = function( options ) {
+ 
+        // Opções do plugin
+        var settings = $.extend({
+            // Padrões
+            type: "POST",
+            url: null,
+            loader: null,
+            returnPlace: "button",
+            reset: false
+        }, options );
+
+        // Serializa automaticamente
+        var dataContent = $( this ).serialize();
+
+        $(this).submit(function(){
+            $(settings.returnPlace).html("<img src='"+settings.loader+"' class='ballivery-loader' />");
+            $.ajax({
+                type:settings.type,
+                url: settings.url,
+                data: dataContent,
+                success: function(data){
+                    $(settings.returnPlace).html(data);
+
+                    if (settings.reset) {
+                        $(this).each (function(){
+                            this.reset();
+                        });
+                    };
+                }
+            });
+            return false;
+        });
+ 
+    };
+ 
+}( jQuery ));
+
+// Submit formularios
+// Editar email
+//  - Senha
+$("#sth-form-ed-senha-email .submit").click(function(){
+    $("#sth-form-ed-senha-email").ballivery({
+        url: "/painel-sitehospedo/dev/ajax/post/editar-senha-email.php",
+        loader: "http://gbrand.com.br/!/assets/img/loader.GIF",
+        returnPlace: "#return-form-ed-senha",
+        reset: true
+    });
+});
 
     // UX - Formulario de recebimentos de email
     // Add destinatrios

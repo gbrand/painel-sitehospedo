@@ -22,19 +22,20 @@
             <div class="row no-pd-lados">
                 <!-- Form coluna esquerda -->
                 <div class="form-ed-senha-email col-6">
-                    <form action="">
+                    <form id="sth-form-ed-senha-email">
                         <div class="form-group">
                             <label for="ed-senha-email">Nova senha</label>
-                            <input type="text" class="form-control" id="ed-senha-email" placeholder="Senha" aria-describedby="user-dominio">
+                            <input type="text" class="form-control" id="ed-senha-email" name="ed-senha-email" placeholder="Senha" aria-describedby="user-dominio">
                         </div>
                         <div class="form-group">
                             <label for="ed-cfrm-senha-email">Confirme a senha</label>
-                            <input type="password" class="form-control" id="ed-cfrm-senha-email" placeholder="Confirme a senha">
+                            <input type="password" class="form-control" id="ed-cfrm-senha-email" name="ed-cfrm-senha-email" placeholder="Confirme a senha">
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-roxo-full">Alterar senha</button>
+                            <div id="return-form-ed-senha"></div>
+                            <button class="submit btn btn-roxo-full">Alterar senha</button>
                         </div>
-
+                        
 
                     </form>
                 </div>
