@@ -7118,6 +7118,10 @@ button.close {
   margin-left: 0;
   margin-right: 0;
 }
+.no-pd-lados {
+  padding-left: 0;
+  padding-right: 0;
+}
 .slider.slider-horizontal {
   width: 100%;
 }

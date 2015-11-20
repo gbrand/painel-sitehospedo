@@ -75,16 +75,12 @@
                 </div>
                 <div class="form-group">
                     <label for="remetente">Lista de destinatários</label>
-                    <select multiple class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                    <select id="lista-destinatarios" multiple class="form-control">
+                      
                     </select>
                 </div>
                 <div class="form-group">
-                   <button class="btn btn-vermelho-full"><i class="fa fa-arrow-down"></i> Remover destinatario</button>
+                   <a id="btn-remove-remetente" class="btn btn-vermelho-full"><i class="fa fa-arrow-down"></i> Remover destinatario</a>
                    <button class="btn btn-roxo-full"><i class="fa fa-check"></i> Atualizar redirecionamentos</button>
                 </div>
 
@@ -97,24 +93,20 @@
                 <div class="form-group">
                     <label for="copia">Copia para:</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="copia" placeholder="Remetente">
+                        <input type="text" class="form-control" id="destinatario" placeholder="Destinatario">
                         <span class="input-group-btn">
-        <button id="btn-add-remetente" class="btn btn-roxo-full" type="button"><i class="fa fa-plus"></i></button>
+        <button id="btn-add-destinatario" class="btn btn-roxo-full" type="button"><i class="fa fa-plus"></i></button>
       </span>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="remetente">Lista de destinos</label>
-                    <select multiple class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
+                    <label for="lista-envios">Lista de envios</label>
+                    <select id="lista-envios" multiple class="form-control">
+					
                     </select>
                 </div>
                 <div class="form-group">
-                   <button class="btn btn-vermelho-full"><i class="fa fa-arrow-down"></i> Remover destinatario</button>
+                   <a id="btn-remove-envio" class="btn btn-vermelho-full"><i class="fa fa-arrow-down"></i> Remover destinatario</a>
                    <button class="btn btn-roxo-full"><i class="fa fa-check"></i> Atualizar lista de envios</button>
                 </div>
 
